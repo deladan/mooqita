@@ -1,2 +1,2 @@
 # mooqita
-Mooqita challenges
+Mooqita beginner challenge
