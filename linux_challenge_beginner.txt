@@ -1,0 +1,13 @@
+1.  
+In order to create the random lines, I've created a string including all the alphabetical characters and the digits.  
+Then I took one of this string's character randomly.
+To do so, I used the RANDOM function, which I restricted to the range 0 - 59 using modulo. That gave me an index where I extracted the "randomly" character from the string. 
+
+2. 
+To know the size of a file, one could use ls -l or du. I prefered du because it was simpler to separate the size of the rest of the output of this command (by means of cut).
+
+3.  
+To sort the file, I just used the sort command, without options. It sorts the file according to the first character of each line.
+
+5.
+To count the lines which were removed, I used the diff command, combined with wc -l. 
